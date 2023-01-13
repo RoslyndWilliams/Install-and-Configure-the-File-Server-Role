@@ -14,14 +14,14 @@ In this walkthrough, we'll perform the following file server management tasks
 - Add the Server for NFS role service to be able to share files with UNIX-based clients.
 
 
-<h2>Requirements</h2>
+<h2>Environments and Technologies Used</h2>
 
 - Computer with Internet Connection
 - Microsoft Azure
 - Microsoft virtual machine
 - Microsoft Windows Server 2012 Datacenter 
 
-<h2>Configuration Steps</h2>
+<h2>Program Walk-Through:</h2>
 
 
 <h3>Step 1: Create an Azure Account</h3>
