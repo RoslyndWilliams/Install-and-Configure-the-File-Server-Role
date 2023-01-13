@@ -8,18 +8,18 @@ Imagine this scenario: you are using the CorpFiles16 server as a file server. Yo
 - Define policies that prevent users from saving .wmv files in the home folders stored on the server.
 - Share files with UNIX-based clients.
 
-In this scenario, your task is to perform the following:
+In this walkthrough, we'll perform the following file server management tasks
 
-- Add the File Server Resource Manager (FSRM) role service, which allows you to configure file screens to prevent users from saving specific file types in specific folders.
+- Add the File Server Resource Manager (FSRM) role service, which allows you to configure file screens to prevent users from saving specific file types in a specific folder
 - Add the Server for NFS role service to be able to share files with UNIX-based clients.
-
-
 
 
 <h2>Requirements</h2>
 
 - Computer with Internet Connection
-- Credit Card (Required for free Azure credits)
+- Microsoft Azure
+- Microsoft virtual machine
+- Microsoft Windows Server 2012 Datacenter 
 
 <h2>Configuration Steps</h2>
 
@@ -135,5 +135,5 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 
 <h3>Tip</h3>
 
--  In case you need to restart the server after finishing the installation, check the box on the Confirmation screen that says "Restart the destination server automatically if required." As a warning, the server will restart after isntallation without further warning, so ensure no files or services are being remotely accessed at the tim eof the restart, otherwise the person working on th eremote file will lose server connectivity--and possibly lose any cahgnes they made to the document.
+     -  A word of advice: if you’re going to turn this option on, make sure you do it after hours when nobody is using the server. For example, someone might have a file open on the server that they’re actively editing. Suppose we turn the option on to automatically restart the server after the roles have been installed. In that case, we will break the connection between the workstation and the server. Somebody will lose their work, especially if they forgot to save it.
  
