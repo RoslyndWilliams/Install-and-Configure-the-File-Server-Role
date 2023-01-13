@@ -1,8 +1,8 @@
 <p align="center">
-<img src="https://i.imgur.com/4wqxHID.png" height="40%" width="60%" alt="Microsoft Azure Logo"/>
+<a href="https://imgur.com/xs8Rs9B"><img src="https://i.imgur.com/xs8Rs9B.png" title="source: imgur.com" height="40%" width="60%" /></a> 
 </p>
 
-<h1>Microsoft Server</h1>
+<h1>Windows Server</h1>
 Imagine this scenario: you are using the CorpFiles16 server as a file server. You can do basic file server management for network users, but you need to be able to perform the following file server management tasks:
 
 - Define policies that prevent users from saving .wmv files in the home folders stored on the server.
@@ -133,7 +133,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 <p align="center">
 <img src="https://i.imgur.com/rEBpL8Y.png" height="80%" width="80%" alt="Azure Free Account"/>
 
-<h3>Tip</h3>
+<h3><a href="https://imgur.com/7fts4KJ"><img src="https://i.imgur.com/7fts4KJ.png" title="source: imgur.com" /></a>Tip<a href="https://imgur.com/7fts4KJ"><img src="https://i.imgur.com/7fts4KJ.png" title="source: imgur.com" /></a></h3>
 
      -  A word of advice: if you’re going to turn this option on, make sure you do it after hours when nobody is using the server. For example, someone might have a file open on the server that they’re actively editing. Suppose we turn the option on to automatically restart the server after the roles have been installed. In that case, we will break the connection between the workstation and the server. Somebody will lose their work, especially if they forgot to save it.
  
